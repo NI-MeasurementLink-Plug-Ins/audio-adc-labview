@@ -13,8 +13,8 @@
 		<Item Name="shared" Type="Folder" URL="../../shared">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Crosstalk_Audio ADC.lvlib" Type="Library" URL="../Crosstalk_Audio ADC/Crosstalk_Audio ADC.lvlib"/>
-		<Item Name="Crosstalk_Audio ADC_UI.lvlib" Type="Library" URL="../Crosstalk_Audio ADC UI/Crosstalk_Audio ADC_UI.lvlib"/>
+		<Item Name="Crosstalk_Audio ADC.lvlib" Type="Library" URL="../crosstalk_Audio ADC/Crosstalk_Audio ADC.lvlib"/>
+		<Item Name="Crosstalk_Audio ADC_UI.lvlib" Type="Library" URL="../crosstalk_Audio ADC UI/Crosstalk_Audio ADC_UI.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
@@ -145,7 +145,7 @@
 				<Item Name="LV Datatypes.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_NISVFA/_Shared subVIs/Controls/LV Datatypes.ctl"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
-				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/Numeric/LVNumericRepresentation.ctl"/>
+				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="MeasurementLink Discovery Client.lvlib" Type="Library" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Discovery Client/MeasurementLink Discovery Client.lvlib"/>
 				<Item Name="MeasurementLink Discovery V1.lvlib" Type="Library" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Discovery V1/MeasurementLink Discovery V1.lvlib"/>
@@ -407,7 +407,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Frequency Response_Audio ADC.lvlib" Type="Library" URL="../../frequency response/Frequency Response_Audio ADC/Frequency Response_Audio ADC.lvlib"/>
-			<Item Name="Get default PCM configuration.vi" Type="VI" URL="../../../../Program Files/National Instruments/LabVIEW 2021/examples/Digital Audio Acquisition and Generation Toolkit/subVIs/Get default PCM configuration.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
